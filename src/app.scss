@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.store{
+    flex: 60%;
+    color: #ff00ff;
+    padding-right: 40px;
+}
+
+.details {
+    flex: 40%;
+    color: #ff00ff;
+}
+
+.details h2{
+    border-bottom: 1px solid #ff00ff;
+}
+
+.store h2 {
+    border-bottom: 1px solid #ff00ff;
+}
+
+.cart-container h2{
+    border-bottom: 1px solid #ff00ff;
+}
+.d-none{    
+    display: none;
+}
+
+.text-alternative{
+    color: #ccc;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .store{
+        padding-right: 0px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+  }

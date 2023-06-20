@@ -1,0 +1,48 @@
+.name-product{
+    color: black;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.price-product{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.buttom-less{
+    float: right;
+    font-size: 29px;
+    font-weight: bold;
+    width: 35px;
+    border: none;
+}
+
+.buttom-more{
+    float: right;
+    font-size: 29px;
+    font-weight: bold;
+    width: 35px;
+    border: none;
+    background-color: #880f98;
+    color: white;
+    margin-right: 7px;;
+}
+
+.title{
+    border-bottom: 1px solid black;
+}
+
+.description{
+    border-bottom: 1px solid black;
+    color: #ccc;
+    font-weight:500;
+    padding: 10px 0px 10px 0px; ;
+}
+
+.product-detail{
+    position: relative;
+}
+
+.img-details{
+    width: 100%;
+}

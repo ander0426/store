@@ -1,0 +1,82 @@
+.list-items{
+    list-style: none;
+   
+}
+.list-items li {
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    border-bottom: 1px solid #ccc;
+    
+}
+.quantity{
+    
+    border: 1px solid #880f98;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #880f98;
+    float: left;
+    color: white;
+    
+}
+.quantity p{
+  margin-top: 11px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.img-product{
+   
+    max-height: 100px;
+    padding: 7px;
+
+}
+
+.responsive-img{
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.amount{
+    color: #ccc;
+    float: right;
+    font-size: 29px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.amount-cart{
+    color: #880f98
+}
+
+.waybox-button {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(26, 69, 148);
+    border: 0px none;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.waybox-button::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 229.5 229.5'%3E%3Cpath fill='%23fff' d='M214.419 32.12A7.502 7.502 0 0 0 209 25.927L116.76.275a7.496 7.496 0 0 0-4.02 0L20.5 25.927a7.5 7.5 0 0 0-5.419 6.193c-.535 3.847-12.74 94.743 18.565 139.961 31.268 45.164 77.395 56.738 79.343 57.209a7.484 7.484 0 0 0 3.522 0c1.949-.471 48.076-12.045 79.343-57.209 31.305-45.217 19.1-136.113 18.565-139.961zm-40.186 53.066l-62.917 62.917c-1.464 1.464-3.384 2.197-5.303 2.197s-3.839-.732-5.303-2.197l-38.901-38.901a7.497 7.497 0 0 1 0-10.606l7.724-7.724a7.5 7.5 0 0 1 10.606 0l25.874 25.874 49.89-49.891a7.497 7.497 0 0 1 10.606 0l7.724 7.724a7.5 7.5 0 0 1 0 10.607z'/%3E%3C/svg%3E");
+    background-size: contain;
+    vertical-align: middle;
+  transform: translateY(-8%);}

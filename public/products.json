@@ -1,0 +1,76 @@
+{
+    "products": [
+     {
+     "name": "Milk",
+     "img": "https://i5.walmartimages.com/asr/3592de4c-2d2d-4285-afbf-f0508775bd58_2.bb23225176016b4d5ce96c4efed80382.jpeg",
+     "price": 75,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 2,
+     "id": 1
+     },
+     {
+     "name": "Cereal",
+     "img": "https://supermercadosla80.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNE41a1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5737bd194392778833a58984524baee5dabb1f6f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9TY21WemFYcGxYM1J2WDJacGRGc0hhUUlnQTJrQ0lBTTZER052Ym5abGNuUkpJZ2hxY0djR09nWkZWRG9LYzJGMlpYSjdDRG9NY1hWaGJHbDBlV2xmT2dwemRISnBjRlE2RDJKaFkydG5jbTkxYm1SYkNHa0IvMmtCLzJrQi93PT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--f9b6205701877dad933126b17f2a1a57fbbba520/7591057001056.png?locale=es",
+     "price": 80,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 3,
+     "id": 2
+     },
+     {
+     "name": "Eggs",
+     "img": "https://kidseatincolor.com/wp-content/uploads/2022/02/eggs-e1648216369366.jpeg",
+     "price": 75,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 12,
+     "id": 3
+     },
+     {
+     "name": "Meat",
+     "img": "https://media.istockphoto.com/id/540233806/photo/grilled-beef-steaks.jpg?s=612x612&w=0&k=20&c=KqB8GAo30NsC1pUTwRXC7L8cjWgbH_OKceWYyjonj6w=",
+     "price": 85,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 21,
+     "id": 4
+     },
+     {
+     "name": "Cheese",
+     "img": "https://media.istockphoto.com/id/1417569234/photo/two-pieces-of-melted-cheese-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=wkUOBfFmEm9uDSgAiy-7Zj-d3PxbqF77Bm918qe6mZI=",
+     "price": 75,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 8,
+     "id": 5
+     },
+     {
+     "name": "Rise",
+     "img": "https://www.amis-outlook.org/uploads/RTEmagicC_rice_04.jpg.jpg",
+     "price": 85,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 9,
+     "id": 6
+     },
+     {
+     "name": "Chicken",
+     "img": "https://assets.epicurious.com/photos/62f16ed5fe4be95d5a460eed/3:2/w_6948,h_4632,c_limit/RoastChicken_RECIPE_080420_37993.jpg",
+     "price": 175,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 42,
+     "id": 8
+     },
+     {
+     "name": "Salt",
+     "img": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322745_1100-732x549.jpg",
+     "price": 85,
+     "amount": 56,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "id": 9
+     },
+     {
+     "name": "Hot Dog",
+     "img": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/06/08/0/FNM_070120-Grilled-Hot-Dogs_s4x3.jpg.rend.hgtvcom.406.406.suffix/1591625198177.jpeg",
+     "price": 37,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit rhoncus imperdiet. Vestibulum venenatis interdum dolor nec condimentum. Sed porta mattis imperdiet. Quisque nulla lacus, dignissim vel tellus id, egestas aliquet sem.",
+     "amount": 23,
+     "id": 10
+     }
+    ]
+    }
