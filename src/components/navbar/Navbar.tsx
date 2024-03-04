@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaShoppingBag, FaShoppingCart } from "react-icons/fa";
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-light bg-light">

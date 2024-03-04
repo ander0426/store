@@ -2,17 +2,17 @@ import { Item } from '../interfaces/products'
 import { types } from '../types/types'
 import { AnyAction } from 'redux'
 
-const validateCart = (items: any, payload: any) => {
-    const cart = items.map((product: Item) => {
-        if (product.id === payload.id) {
-            product.quantity = payload.quantity + product.quantity
-            product.total = product.price * product.quantity
-        }
-        return product
-    })
+// const validateCart = (items: any, payload: any) => {
+//     const cart = items.map((product: Item) => {
+//         if (product.id === payload.id) {
+//             product.quantity = payload.quantity + product.quantity
+//             product.total = product.price * product.quantity
+//         }
+//         return product
+//     })
 
-    return cart;
-}
+//     return cart;
+// }
 
 const validateCartRemove = (items: any, payload: any) => {
     let remove = null //
@@ -42,12 +42,12 @@ export const cartReducer = (state = initialState, action: AnyAction) => {
 
             let found = state.cart.find(({ id }) => id === action.payload.id)
             if (found) {
-                let item: Item = found
-                const cart = validateCart(state.cart, action.payload)
-                return {
-                    ...state,
-                    cart: [...cart]
-                }
+                // let item: Item = found
+                // const cart = validateCart(state.cart, action.payload)
+                // return {
+                //     ...state,
+                //     cart: [...cart]
+                // }
             }
             return {
                 ...state,
