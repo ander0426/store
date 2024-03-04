@@ -79,8 +79,11 @@ function App() {
     const response = await  ApiMetasGuardar(data).then(result => {
       return result.data
     })
-    setStateButton(false)
-    setViewMessage(true)
+    if(response){
+       setStateButton(false)
+        setViewMessage(true)
+    }
+   
   }
 
   const handleInputChange = (e: any) => {
